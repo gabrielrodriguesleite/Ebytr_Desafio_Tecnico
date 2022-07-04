@@ -1,6 +1,17 @@
 # Ebytr_Desafio_Tecnico
 
-Até o momento 04/07/22 apenas o frontend roda localmente:
+## Executando com docker-compose
+
+Para iniciar o ambiente:
+`cd app && docker-compose -f docker-compose.yml up -d --build`
+
+Para parar o ambiente:
+`cd app && docker-compose -f docker-compose.yml down --remove-orphans`
+
+
+## Executando com node 16 instalado no ambiente
+
+Até o momento 05/07/22 apenas o frontend roda localmente:
 `cd app/frontend && npm i && npm start`
 O fluxos que estão funcionais (localmente p/ testes) são:
 
