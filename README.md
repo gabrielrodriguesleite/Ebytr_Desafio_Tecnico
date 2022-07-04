@@ -1,14 +1,14 @@
 # Ebytr_Desafio_Tecnico
 
 Até o momento 04/07/22 apenas o frontend roda localmente:
-`cd app/frontend && npm start`
+`cd app/frontend && npm i && npm start`
 O fluxos que estão funcionais (localmente p/ testes) são:
 
-1.  O fluxo de *sign in* e *login*.
+1. O fluxo de *sign in* e *login*.
 
-2.  Criação e exclusão de tarefas.
+2. Criação e exclusão de tarefas.
 
-3.  Edição de tarefas
+3. Edição de tarefas
 
 ```mermaid
 graph TD;  
@@ -16,8 +16,6 @@ graph TD;
   SignIn-->Login;
   Login-->MyTodo;
 ```
-
-
 
 ## Dados usados
 
@@ -40,29 +38,27 @@ Data de criação, Título e Status. No banco de dados a tarefa deve possuir o i
 
 ## TODO:
 
-- [x]  Editar Tarefa
+- [x] Editar Tarefa
 
-- [ ]  Ordenar Tarefa pela Data de Criação 
+- [ ] Ordenar Tarefa pela Data de Criação 
 
-- [ ]  Ordenar Tarefa pelo Título
+- [ ] Ordenar Tarefa pelo Título
 
-- [ ]  Ordenar Tarefa pelo Status
+- [ ] Ordenar Tarefa pelo Status
 
-- [x]  Excluir Tarefa
+- [x] Excluir Tarefa
 
-- [x]  Adicionar Tarefa
+- [x] Adicionar Tarefa
 
-- [x]  Criação do React Front Básico
+- [x] Criação do React Front Básico
 
-- [x]  Configuração do linter
+- [x] Configuração do linter
 
-- [x]  Router
+- [x] Router
 
-- [x]  Redux
+- [x] Redux
 
-- [x]  Login
-
-
+- [x] Login
 
 ### Pacotes instalados no Frontend
 
