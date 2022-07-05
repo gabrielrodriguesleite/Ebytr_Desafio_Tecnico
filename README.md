@@ -2,17 +2,30 @@
 
 ## Executando com docker-compose
 
-Para iniciar o ambiente:
+### Para iniciar o ambiente:
+
 `cd app && docker-compose -f docker-compose.yml up -d --build`
 
-Para parar o ambiente:
+#### Usando npm
+
+`npm run compose:up`
+
+### Para parar o ambiente:
+
 `cd app && docker-compose -f docker-compose.yml down --remove-orphans`
 
+#### Usando npm
+
+`npm run compose:down`
 
 ## Executando com node 16 instalado no ambiente
 
 Até o momento 05/07/22 apenas o frontend roda localmente:
 `cd app/frontend && npm i && npm start`
+
+
+## Fluxo da aplicação
+
 O fluxos que estão funcionais (localmente p/ testes) são:
 
 1. O fluxo de *sign in* e *login*.
@@ -49,27 +62,33 @@ Data de criação, Título e Status. No banco de dados a tarefa deve possuir o i
 
 ## TODO:
 
-- [x] Editar Tarefa
+- [ ]  Dockerização do banco de dados
 
-- [ ] Ordenar Tarefa pela Data de Criação 
+- [ ]  Dockerização do backend
 
-- [ ] Ordenar Tarefa pelo Título
+- [x]  Dockerização do frontend
 
-- [ ] Ordenar Tarefa pelo Status
+- [x]  Editar Tarefa
 
-- [x] Excluir Tarefa
+- [ ]  Ordenar Tarefa pela Data de Criação 
 
-- [x] Adicionar Tarefa
+- [ ]  Ordenar Tarefa pelo Título
 
-- [x] Criação do React Front Básico
+- [ ]  Ordenar Tarefa pelo Status
 
-- [x] Configuração do linter
+- [x]  Excluir Tarefa
 
-- [x] Router
+- [x]  Adicionar Tarefa
 
-- [x] Redux
+- [x]  Criação do React Front Básico
 
-- [x] Login
+- [x]  Configuração do linter
+
+- [x]  Router
+
+- [x]  Redux
+
+- [x]  Login
 
 ### Pacotes instalados no Frontend
 
