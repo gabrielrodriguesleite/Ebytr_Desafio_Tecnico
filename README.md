@@ -1,5 +1,9 @@
 # Ebytr_Desafio_Tecnico
 
+## Frontend Online on
+
+https://desafio_ebytr.surge.sh
+
 ## Executando com docker-compose
 
 ### Para iniciar o ambiente:
@@ -22,7 +26,6 @@
 
 Até o momento 05/07/22 apenas o frontend roda localmente:
 `cd app/frontend && npm i && npm start`
-
 
 ## Fluxo da aplicação
 
@@ -62,33 +65,33 @@ Data de criação, Título e Status. No banco de dados a tarefa deve possuir o i
 
 ## TODO:
 
-- [ ]  Dockerização do banco de dados
+- [ ] Dockerização do banco de dados
 
-- [ ]  Dockerização do backend
+- [ ] Dockerização do backend
 
-- [x]  Dockerização do frontend
+- [x] Dockerização do frontend
 
-- [x]  Editar Tarefa
+- [x] Editar Tarefa
 
-- [ ]  Ordenar Tarefa pela Data de Criação 
+- [ ] Ordenar Tarefa pela Data de Criação 
 
-- [ ]  Ordenar Tarefa pelo Título
+- [ ] Ordenar Tarefa pelo Título
 
-- [ ]  Ordenar Tarefa pelo Status
+- [ ] Ordenar Tarefa pelo Status
 
-- [x]  Excluir Tarefa
+- [x] Excluir Tarefa
 
-- [x]  Adicionar Tarefa
+- [x] Adicionar Tarefa
 
-- [x]  Criação do React Front Básico
+- [x] Criação do React Front Básico
 
-- [x]  Configuração do linter
+- [x] Configuração do linter
 
-- [x]  Router
+- [x] Router
 
-- [x]  Redux
+- [x] Redux
 
-- [x]  Login
+- [x] Login
 
 ### Pacotes instalados no Frontend
 
