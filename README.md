@@ -6,6 +6,8 @@ https://desafio_ebytr.surge.sh
 
 ## Executando com docker-compose
 
+É necessário possuir `docker` e `docker-compose` instalados na máquina com as permissões corretas para o usuário.
+
 ### Para iniciar o ambiente:
 
 `cd app && docker-compose -f docker-compose.yml up -d --build`
